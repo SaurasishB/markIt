@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300PX;
+    height: 200px;
+}
+#in{
+    display: flex;
+    justify-content: center;
+}
+#click{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+#input_el{
+    height: 5vmin;
+    width: 98vmax;
+    outline:rgb(11, 217, 224);
+    border-color: rgb(7, 252, 236);
+    box-shadow: 0 0 10px #719ECE;
+    margin-top: 1.15vh;
+    border-radius: 5vh;
+    color: rgb(4, 112, 65);
+    text-align: center;
+    font-size: 20px;
+}
+.button-l{
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5vh;
+}
+#save_ip{
+    background-color: rgb(19, 180, 11);
+    box-shadow: 0 0 10px #2cd85a;
+}
+#saveTab_ip{
+    background-color: rgb(19, 180, 11);
+    box-shadow: 0 0 10px #2cd85a;
+}
+#del_ip{
+    background-color: rgb(197, 18, 18);
+    box-shadow: 0 0 10px #ee2a2a;
+}
+
+ul{
+    list-style: none;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+li a{
+    color: rgb(6, 105, 166);
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(rgb(68, 124, 180), green, blue);
+}
+
+li{
+    margin-bottom: 20px;
+}
